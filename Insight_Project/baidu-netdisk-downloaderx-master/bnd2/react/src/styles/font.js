@@ -1,1 +1,0 @@
-export default 'Helvetica Neue,Luxi Sans,DejaVu Sans,Tahoma,Hiragino Sans GB,Microsoft Yahei,sans-serif'
