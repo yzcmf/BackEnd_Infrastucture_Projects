@@ -1,5 +1,4 @@
 # Detect web attacks by deep learning
-
 GitHub:
 •Project Idea: This project focused on solving web security issues
 •Tech Stack: python, bash, deep learning, web security
