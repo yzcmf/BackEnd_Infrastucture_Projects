@@ -6,7 +6,9 @@ GitHub:
 •Tech Stack: python, bash, deep learning, web security
 
 •Data Source:  
+	
 	=> Own: 1.Build a simple website and SQL injections 2. API to detect
+	
 	=> Use online injected website
 
 •Engineering Challenge: Use Deep Learning to detect SQL injection
