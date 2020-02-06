@@ -7,6 +7,7 @@ def signin(request):
     # 从 HTTP POST 请求中获取用户名、密码参数
     userName = request.POST.get('username')
     passWord = request.POST.get('password')
+    # print(userName, passWord)
 
     # 使用 Django auth 库里面的 方法校验用户名、密码
     user = authenticate(username=userName, password=passWord)

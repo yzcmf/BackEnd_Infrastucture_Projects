@@ -19,7 +19,7 @@ from demo_site.views import test
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('demo/test', test),
-    path('api/mgr/', include('mgr.urls')),
+    path('/admin/', admin.site.urls),
+    path('/demo/test', test),
+    path('/api/mgr/', include('mgr.urls')),
 ] + static("/", document_root="./z_dist")
