@@ -6,21 +6,20 @@ sys.path.append(os.path.abspath('/Users/user/Downloads/git_projects/back_end_pro
 import model
 
 
-
 # 登录处理
 def signin(request):
     # 从 HTTP POST 请求中获取用户名、密码参数
     userName = request.POST.get('username')
     # passWord = request.POST.get('password')
-    # with open("data2/sqlmap.txt", "r") as f:  passWords = [line.rstrip() for line in f]
-    with open("data2/zap.txt", "r") as f: passWords = [ line.rstrip() for line in f ]
+    # with open("data1/sqlmap_test.txt", "r") as f:  passWords = [line.rstrip() for line in f]
+    with open("data1/zap_test.txt", "r") as f: passWords = [ line.rstrip() for line in f ]
 
     for i, passWord in enumerate(passWords):
         print(i, passWord)
-        malicious1 = model.predictor1(passWord)  # API for detecting Malicious Web Attacks
-        malicious2 = model.predictor2(passWord)  # API for detecting Malicious Web Attacks
-        malicious3 = model.predictor3(passWord)  # API for detecting Malicious Web Attacks
-        if malicious1 or malicious2 or malicious3: continue
+        malicious1 = model.predictor1(passWord)  # API for detecting Malicious Web Attacks DT
+        malicious3 = model.predictor3(passWord)  # API for detecting Malicious Web Attacks RF
+        print(malicious1, malicious3)
+        # if malicious1 or malicious3: continue
 
 
         # 使用 Django auth 库里面的 方法校验用户名、密码

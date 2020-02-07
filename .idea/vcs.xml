@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Reference/Machine-Learning-Web-Application-Firewall-and-Dataset" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Reference/sqlmap-dev" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Reference/waf-benchmark" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Reference/waf-brain" vcs="Git" />
+  </component>
+</project>
